@@ -1,0 +1,1 @@
+C:\dev\AvoidanceSample\AvoidanceSample\AvoidanceSample.csproj;arm

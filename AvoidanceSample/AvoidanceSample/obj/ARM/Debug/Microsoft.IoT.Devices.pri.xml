@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Microsoft.IoT.Devices" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Microsoft.IoT.Devices">
+				<NamedResource name="Microsoft.IoT.Devices.xr.xml" uri="ms-resource://Microsoft.IoT.Devices/Files/Microsoft.IoT.Devices/Microsoft.IoT.Devices.xr.xml">
+					<Candidate type="Path">
+						<Value>Microsoft.IoT.Devices\Microsoft.IoT.Devices.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://Microsoft.IoT.Devices/Files/Microsoft.IoT.Devices/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.IoT.Devices">
+			<ResourceMapSubtree name="Strings">
+				<NamedResource name="AlreadySubscribed" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/AlreadySubscribed">
+					<Candidate type="String">
+						<Value>Already subscribed</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DeviceNotFound" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/DeviceNotFound">
+					<Candidate type="String">
+						<Value>The device '{0}' could not be found</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ElementNotRendered" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/ElementNotRendered">
+					<Candidate type="String">
+						<Value>WARNING: {0} with name '{1}' is collapsed or not loaded and cannot be rendered. Instead of collapsing the element try setting Opacity to 0.</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ExistingUpdateAction" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/ExistingUpdateAction">
+					<Candidate type="String">
+						<Value>An existing update action has already been scheduled and cannot be changed</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="InvalidSubscriberType" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/InvalidSubscriberType">
+					<Candidate type="String">
+						<Value>Subscriber must be of type Action or Func&lt;Task&gt;</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="IOChangeState" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/IOChangeState">
+					<Candidate type="String">
+						<Value>The requested IO change is not supported in the current state</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MissingRequiredIO" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/MissingRequiredIO">
+					<Candidate type="String">
+						<Value>The required IO device property '{0}' has not been assigned</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MissingTemplateElement" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/MissingTemplateElement">
+					<Candidate type="String">
+						<Value>The element {'0'} is missing from the '{1}' template</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="NoUpdateAction" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/NoUpdateAction">
+					<Candidate type="String">
+						<Value>The update action must first be specified by calling SetUpdateAction or SetAsyncUpdateAction</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SubscriptionNotFound" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/SubscriptionNotFound">
+					<Candidate type="String">
+						<Value>Subscription not found</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TypeNotDelegate" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/TypeNotDelegate">
+					<Candidate type="String">
+						<Value>The specified type '{0}' is not a delegate</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UnknownDisplayType" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/UnknownDisplayType">
+					<Candidate type="String">
+						<Value>Unknwon display type '{0}'</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="UnknownPixelFormat" uri="ms-resource://Microsoft.IoT.Devices/Microsoft.IoT.Devices/Strings/UnknownPixelFormat">
+					<Candidate type="String">
+						<Value>Unknown pixel format '{0}'</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

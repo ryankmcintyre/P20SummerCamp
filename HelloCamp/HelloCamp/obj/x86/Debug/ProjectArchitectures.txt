@@ -1,0 +1,1 @@
+C:\dev\HelloCamp\HelloCamp\HelloCamp.csproj;x86
